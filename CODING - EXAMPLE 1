@@ -1,0 +1,26 @@
+package character_strings;
+
+public class Format_Output {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.out.println();
+		System.out.println("Price per litre : 1.21997");
+		System.out.println();
+		System.out.printf("%.2f",1.22);
+		System.out.println();
+		System.out.println();
+		System.out.printf("%10.2f",1.22);
+		System.out.println();
+		System.out.println();
+		System.out.printf("%.5f",1.21997);
+		System.out.println();
+		System.out.println();
+		System.out.printf("%10.5f",1.21997);
+		
+		//%10.2f is called a specifier
+
+	}
+
+}
